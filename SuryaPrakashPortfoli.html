@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surya Prakash | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="https://github.com/SuryaPrakashBolloju.png" type="image/png" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background-color: #212529;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero a {
+      margin: 0.5rem;
+      display: inline-block;
+    }
+
+    .section-title {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0d6efd;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+
+    .card {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border: none;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 0.5rem;
+    }
+
+    .skill-badge {
+      background-color: #e3f2fd;
+      color: #0d6efd;
+      border: 1px solid #0d6efd;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Surya Prakash</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Surya Prakash Bolloju</h1>
+    <p>Aspiring Software Developer | B.Tech CSE | Aditya College of Engineering and Technology</p>
+    <p>Email: <a href="mailto:suryaprakashbolloju@gmail.com" class="text-white">suryaprakashbolloju@gmail.com</a> | Phone: +91 9032550282</p>
+    <a href="https://github.com/SuryaPrakashBolloju" class="btn btn-outline-light">GitHub</a>
+  </div>
+
+  <div class="container mt-4">
+
+    <h2 class="section-title" id="summary">Summary</h2>
+    <p>Aspiring Software Developer with strong skills in Java, Python, and web development. Experienced in building web apps and analyzing data using R and Shiny. Eager to contribute to real-world projects using modern technologies like Django, SQL, and DSA.</p>
+
+    <h2 class="section-title" id="education">Education</h2>
+    <ul>
+      <li><strong>Aditya College of Engineering and Technology</strong><br>
+        B.Tech in Computer Science | CGPA: 8.68 (Expected 2026) | Kakinada
+      </li>
+      <li><strong>Narayana Junior College</strong><br>
+        BIEAP | Marks: 888/1000 | 06/2020 – 05/2022 | Kakinada
+      </li>
+    </ul>
+
+    <h2 class="section-title" id="skills">Skills</h2>
+    <div class="skills-list">
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">Java</span>
+      <span class="skill-badge">C</span>
+      <span class="skill-badge">R</span>
+      <span class="skill-badge">HTML</span>
+      <span class="skill-badge">CSS</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">Django</span>
+      <span class="skill-badge">SQL</span>
+    </div>
+
+    <h2 class="section-title" id="experience">Professional Experience</h2>
+    <p><strong>Intern — Technical Hub</strong><br>June 2024 – August 2024</p>
+    <ul>
+      <li>Experienced in Java and R programming, with skills in software development and data analysis.</li>
+      <li>Worked on web development, using HTML, CSS, and JavaScript to create responsive web pages.</li>
+      <li>Led a Student Performance Analysis project, analyzing student data using R for insights.</li>
+    </ul>
+
+    <h2 class="section-title" id="projects">Projects</h2>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">MCQ Practice Application</h5>
+        <p>Java-based GUI app for practicing multiple-choice questions with JDBC for data handling. Includes filtering by difficulty and improved responsiveness.<br><strong>Technologies:</strong> Java, JDBC</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Student Performance Analysis Dashboard</h5>
+        <p>Interactive dashboard in R (Shiny) for analyzing student performance. Includes dynamic filters, grade distribution, and subject-wise comparisons.<br><strong>Technologies:</strong> R, ggplot2, plotly, Shiny</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Travel & Tourism Website</h5>
+        <p>Developed a responsive web app using Django, HTML, CSS, and Bootstrap. Includes user login/signup, booking form, and admin dashboard.<br><strong>Technologies:</strong> Django, HTML, CSS, Bootstrap, SQLite</p>
+      </div>
+    </div>
+
+    <h2 class="section-title" id="certificates">Certificates</h2>
+    <ul>
+      <li>IT Specialist – Java (by Pearson VUE / Certiport)</li>
+      <li>Azure AI Fundamentals (AI-900) — by Microsoft</li>
+    </ul>
+
+    <h2 class="section-title" id="achievements">Achievements</h2>
+    <ul>
+      <li><strong>Winner</strong> – National Science Day Tech Quiz</li>
+      <li><strong>Finalist</strong> – VEDA Tech Fest Tech Quiz</li>
+    </ul>
+
+    <h2 class="section-title" id="contact">Contact</h2>
+    <p>Email: <a href="mailto:suryaprakashbolloju@gmail.com">suryaprakashbolloju@gmail.com</a></p>
+    <p>Phone: +91 9032550282</p>
+    <p>LeetCode: <a href="https://leetcode.com/SuryaPrakashBolloju/" target="_blank">SuryaPrakashBolloju</a></p>
+    <p>HackerRank: <a href="https://www.hackerrank.com/suryaprakashbol1" target="_blank">suryaprakashbol1</a></p>
+  </div>
+
+  <footer>
+    <p>© 2025 Surya Prakash Bolloju | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
